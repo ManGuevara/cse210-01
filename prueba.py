@@ -12,8 +12,9 @@ def main():
 
     value=[1 , 2, 3, 4, 5, 6, 7, 8, 9]
 #this line calls the function get grid
+    
     get_grid(value)
-  
+    x_o_position(value):
 #sample of the grid
 def get_grid(value):
 
@@ -27,6 +28,7 @@ def get_grid(value):
 def x_o_position(value):
     first_move= input("choose a vacant position from the grid: ")
     turn= "x"
+    turn= "o"
     if turn == "x":
         value[first_move-1]= "x"
     
